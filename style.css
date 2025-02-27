@@ -1,0 +1,427 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 200vh;
+    width: 100vw;
+    background-color: #131313;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    padding: 20px 100px;
+    height: 20vh;
+}
+.logo {
+    font-size: 1.5rem;
+    padding-top: 15px;
+    font-family: "Inter";
+    font-weight: bold;
+}
+.logo a{
+    text-decoration: none;
+    color: #ffff;
+    text-align: center;
+}
+.menu {
+    list-style: none;
+    display: flex;
+
+}
+.menu li {
+    padding-top: 10px;
+    margin: 45px;
+}
+.menu a {
+    text-decoration: none;
+    color: #B7B5B5;
+    font-family: "Instrument Sans";
+    font-size: 18px;
+    transition: color 0.3s ease;
+} 
+.menu a:hover{
+    color: white;
+}
+.ContactME{
+    width: 145px;
+    height: 45px;
+    border: none;
+    background-color: #575757;
+    border-radius: 10px;
+    font-family: "Alata";
+    color: white;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+    transition: 2.5sec ease-in-out;
+}
+.ContactME:hover{
+    background-color: white;
+    color: black;
+}
+
+/* grid */
+ .parent {
+    display: grid;
+    /* grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr); */
+    gap: 15px;
+    justify-content: center;
+}
+    
+.div1 {
+    width: 610px;
+    height: 340px;
+    grid-column: span 4 / span 4;
+    grid-row: span 3 / span 3;
+    border-radius: 27px;
+    border: 2px,solid transparent;
+    background: linear-gradient(120deg,#2A2A2A,#343434) padding-box,linear-gradient(120deg,#757575,black) border-box;
+    display: flex;
+}
+.rig1{
+    width:45%;
+    height: 100%;
+    align-items: center;
+}
+.lef1{
+    width:65%;
+    height: 100%;
+}
+.rig1 img{
+    height: 247px;
+    width: 250px;
+    padding-top: 50px;
+    padding-left: 25px;
+}
+.lef1 h6{
+    color: #999999;
+    font-family: "Instrument Sans";
+    font-weight: 500;
+    font-size: 1.2rem;
+    padding-top: 90px;
+    padding-left: 20px;
+}
+.lef1 h2{
+    font-family: "Instrument Sans";
+    font-size: 2rem;
+    font-weight: 500;
+    color: #ffff;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.lef1 p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #999999;
+    padding-left: 20px;
+    padding-top: 25px;
+    font-size: 15px;
+}
+a{
+    text-decoration: none;
+}
+.lef1 i{
+    color: #B7B5B5;
+    font-size: 3rem;
+    font-weight: lighter;
+    padding-left: 250px;
+    transition: 2.5sec, ease-out;
+    cursor: pointer;
+}
+i:hover{
+    color: #ffff;
+}
+
+.div2 {
+    width: 630px;
+    height: 61px;
+    grid-column: span 4 / span 4;
+    grid-column-start: 5;
+    border-radius: 27px;
+    border: 2px,solid transparent;
+    background: linear-gradient(120deg,#2A2A2A,#343434) padding-box,linear-gradient(160deg,#757575,black) border-box;
+}
+
+.div3 {
+    width: 310px;
+    height: 268px;
+    grid-column: span 2 / span 2;
+    grid-row: span 2 / span 2;
+    grid-column-start: 5;
+    grid-row-start: 2;
+    border-radius: 27px;
+    border: 2px,solid transparent;
+    background: linear-gradient(120deg,#2A2A2A,#343434) padding-box,linear-gradient(120deg,#757575,black) border-box;
+}
+
+.up3{
+    height: 65%;
+}
+
+.up3 img {
+    width: 112px;
+    height: 112px;
+    display: block;
+    margin: 0 auto 10px;
+    padding-top: 40px;
+}
+
+.dow3 h6 {
+    font-family: "Alata";
+    color: #B7B5B5;
+    font-weight: 400;
+    font-size: 15px;
+    padding-left: 40px;
+}
+
+.download3 {
+    display: flex;
+    align-items: center;
+    margin-top: -10px;
+}
+
+.download3 h2 {
+    font-family: "Alata";
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 25px;
+    padding-left: 40px;
+}
+.download3 a{
+    padding-left: 80px;
+    font-size: 3rem;
+}
+.download3 a i {
+    color: #B7B5B5;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.download3 a i:hover {
+    color: #ffffff;
+}
+
+
+.div4 {
+    width: 310px;
+    height: 268px;
+    grid-column: span 2 / span 2;
+    grid-row: span 2 / span 2;
+    grid-column-start: 7;
+    grid-row-start: 2;
+    border-radius: 27px;
+    border: 2px,solid transparent;
+    background: linear-gradient(120deg,#2A2A2A,#343434) padding-box,linear-gradient(120deg,#757575,black) border-box;
+}
+
+.up4{
+    height: 65%;
+}
+
+.up4 img {
+    width: 237px;
+    height: 133px;
+    display: block;
+    margin: 0 auto 10px;
+    padding-top: 40px;
+}
+
+.download4 {
+    display: flex;
+    align-items: center;
+    margin-top: -10px;
+}
+
+.download4 h2 {
+    font-family: "Alata";
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 25px;
+    padding-left: 40px;
+}
+.download4 a{
+    padding-left: 130px;
+    font-size: 3rem;
+}
+.download4 a i {
+    color: #B7B5B5;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.download4 a i:hover {
+    color: #ffffff;
+}
+
+.div5 {
+    width: 306px;
+    height: 270px;
+    grid-column: span 2 / span 2;
+    grid-row: span 2 / span 2;
+    grid-row-start: 4;
+    border-radius: 27px;
+    border: 2px,solid transparent;
+    background: linear-gradient(120deg,#2A2A2A,#343434) padding-box,linear-gradient(120deg,#757575,black) border-box;
+}
+.up1{
+    height: 65%;
+}
+
+.up1 img {
+    width: 112px;
+    height: 112px;
+    display: block;
+    margin: 0 auto 10px;
+    padding-top: 40px;
+}
+
+.dow1 h6 {
+    font-family: "Alata";
+    color: #B7B5B5;
+    font-weight: 400;
+    font-size: 15px;
+    padding-left: 40px;
+}
+
+.download {
+    display: flex;
+    align-items: center;
+    margin-top: -10px;
+}
+
+.download h2 {
+    font-family: "Alata";
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 25px;
+    padding-left: 40px;
+}
+.download a{
+    padding-left: 85px;
+    font-size: 3rem;
+}
+.download a i {
+    color: #B7B5B5;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.download a i:hover {
+    color: #ffffff;
+}
+
+
+.div6 {
+    width: 615px;
+    height: 270px;
+    grid-column: span 4 / span 4;
+    grid-row: span 2 / span 2;
+    grid-column-start: 3;
+    grid-row-start: 4;
+    border-radius: 27px;
+    border: 2px,solid transparent;
+    background: linear-gradient(120deg,#2A2A2A,#343434) padding-box,linear-gradient(120deg,#757575,black) border-box;
+}
+
+.up6{
+    height: 70%;
+}
+
+.up6 li{
+    list-style: none;
+    color: #ffff;
+}
+.up6 ul{
+    list-style: none;
+    display: flex;
+    padding-top: 100px;
+    font-size: 3rem;
+    justify-content: space-around;
+}
+.dow6{
+    width: 100%;
+
+}
+
+.dow6 h6 {
+    font-family: "Alata";
+    color: #B7B5B5;
+    font-weight: 400;
+    font-size: 15px;
+    padding-left: 40px;
+}
+
+.download6 {
+    display: flex;
+    align-items: center;
+    margin-top: -10px;
+}
+
+.download6 h2 {
+    font-family: "Alata";
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 25px;
+    padding-left: 40px;
+}
+.download6 a{
+    padding-left: 400px;
+    font-size: 3rem;
+}
+.download6 a i {
+    color: #B7B5B5;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.download6 a i:hover {
+    color: #ffffff;
+}
+
+.div7 {
+    width: 311px;
+    height: 320px;
+    grid-column: span 2 / span 2;
+    grid-row: span 3 / span 3;
+    grid-column-start: 7;
+    grid-row-start: 4;
+    border-radius: 27px;
+    border: 2px,solid transparent;
+    background: linear-gradient(120deg,#2A2A2A,#343434) padding-box,linear-gradient(120deg,#757575,black) border-box;
+}
+
+.div8 {
+    width: 600px;
+    height: 284px;
+    grid-column: span 3 / span 3;
+    grid-row: span 2 / span 2;
+    grid-row-start: 7;
+    border-radius: 27px;
+    border: 2px,solid transparent;
+    background: linear-gradient(120deg,#2A2A2A,#343434) padding-box,linear-gradient(120deg,#757575,black) border-box;
+}
+.up7{
+    height: 70%;   
+}
+.box7{
+    height: 200px;
+    width: 229px;
+    background-color: rgba(217, 217, 217,0.5);
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+
+.div9 {
+    width: 645px;
+    height: 235px;
+    grid-column: span 5 / span 5;
+    grid-row: span 2 / span 2;
+    grid-column-start: 4;
+    grid-row-start: 7;
+    border-radius: 27px;
+    border: 2px,solid transparent;
+    background: linear-gradient(120deg,#2A2A2A,#343434) padding-box,linear-gradient(120deg,#757575,black) border-box;
+}
+                         
