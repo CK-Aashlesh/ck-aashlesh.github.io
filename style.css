@@ -3,7 +3,7 @@
     padding: 0;
 }
 .container{
-    height: 200vh;
+    height: 170vh;
     width: 100vw;
     background-color: #131313;
 }
@@ -77,8 +77,12 @@ nav {
     grid-row: span 3 / span 3;
     border-radius: 27px;
     border: 2px,solid transparent;
-    background: linear-gradient(120deg,#2A2A2A,#343434) padding-box,linear-gradient(120deg,#757575,black) border-box;
+    background: linear-gradient(130deg, #3a3a3a, #151515) padding-box,linear-gradient(120deg,#757575,black) border-box;
     display: flex;
+    transition: background 3s ease-in-out;
+}
+.div1:hover{
+    background: linear-gradient(150deg, #3a3a3a, #151515) padding-box,linear-gradient(120deg,#757575,black) border-box;;
 }
 .rig1{
     width:45%;
@@ -89,11 +93,16 @@ nav {
     width:65%;
     height: 100%;
 }
+
 .rig1 img{
     height: 247px;
     width: 250px;
     padding-top: 50px;
     padding-left: 25px;
+}
+.lef1 img{
+    position: absolute;
+    margin-left: 250px;
 }
 .lef1 h6{
     color: #999999;
@@ -125,7 +134,7 @@ a{
     color: #B7B5B5;
     font-size: 3rem;
     font-weight: lighter;
-    padding-left: 250px;
+    margin-left: 250px;
     transition: 2.5sec, ease-out;
     cursor: pointer;
 }
@@ -140,9 +149,12 @@ i:hover{
     grid-column-start: 5;
     border-radius: 27px;
     border: 2px,solid transparent;
-    background: linear-gradient(120deg,#2A2A2A,#343434) padding-box,linear-gradient(160deg,#757575,black) border-box;
+    background: linear-gradient(130deg, #3a3a3a, #151515) padding-box,linear-gradient(160deg,#757575,black) border-box;
+    transition: background 3s ease-in-out;
 }
-
+.div2:hover{
+    background: linear-gradient(150deg, #3a3a3a, #151515) padding-box,linear-gradient(120deg,#757575,black) border-box;;
+}
 .div3 {
     width: 310px;
     height: 268px;
@@ -152,19 +164,22 @@ i:hover{
     grid-row-start: 2;
     border-radius: 27px;
     border: 2px,solid transparent;
-    background: linear-gradient(120deg,#2A2A2A,#343434) padding-box,linear-gradient(120deg,#757575,black) border-box;
+    background: linear-gradient(130deg, #3a3a3a, #151515) padding-box,linear-gradient(120deg,#757575,black) border-box;
+    transition: background 3s ease-in-out;
 }
-
+.div3:hover{
+    background: linear-gradient(150deg, #3a3a3a, #151515) padding-box,linear-gradient(120deg,#757575,black) border-box;;
+}
 .up3{
     height: 65%;
 }
 
 .up3 img {
-    width: 112px;
-    height: 112px;
-    display: block;
-    margin: 0 auto 10px;
-    padding-top: 40px;
+    width: 200px;
+    height: 150px;
+    margin-left: 50px;
+    margin-top: 35px;
+    rotate: -10deg;
 }
 
 .dow3 h6 {
@@ -189,7 +204,7 @@ i:hover{
     padding-left: 40px;
 }
 .download3 a{
-    padding-left: 80px;
+    margin-left: 80px;
     font-size: 3rem;
 }
 .download3 a i {
@@ -212,9 +227,12 @@ i:hover{
     grid-row-start: 2;
     border-radius: 27px;
     border: 2px,solid transparent;
-    background: linear-gradient(120deg,#2A2A2A,#343434) padding-box,linear-gradient(120deg,#757575,black) border-box;
+    background: linear-gradient(130deg, #3a3a3a, #151515) padding-box,linear-gradient(120deg,#757575,black) border-box;
+    transition: background 3s ease-in-out;
 }
-
+.div4:hover{
+    background: linear-gradient(150deg, #3a3a3a, #151515) padding-box,linear-gradient(120deg,#757575,black) border-box;;
+}
 .up4{
     height: 65%;
 }
@@ -241,7 +259,7 @@ i:hover{
     padding-left: 40px;
 }
 .download4 a{
-    padding-left: 130px;
+    margin-left: 130px;
     font-size: 3rem;
 }
 .download4 a i {
@@ -262,7 +280,11 @@ i:hover{
     grid-row-start: 4;
     border-radius: 27px;
     border: 2px,solid transparent;
-    background: linear-gradient(120deg,#2A2A2A,#343434) padding-box,linear-gradient(120deg,#757575,black) border-box;
+    background: linear-gradient(130deg, #3a3a3a, #151515) padding-box,linear-gradient(120deg,#757575,black) border-box;
+    transition: background 3s ease-in-out;
+}
+.div5:hover{
+    background: linear-gradient(150deg, #3a3a3a, #151515) padding-box,linear-gradient(120deg,#757575,black) border-box;;
 }
 .up1{
     height: 65%;
@@ -298,9 +320,11 @@ i:hover{
     padding-left: 40px;
 }
 .download a{
-    padding-left: 85px;
+    margin-left: 85px;
     font-size: 3rem;
+    box-shadow: none;
 }
+
 .download a i {
     color: #B7B5B5;
     cursor: pointer;
@@ -312,6 +336,7 @@ i:hover{
 }
 
 
+
 .div6 {
     width: 615px;
     height: 270px;
@@ -321,9 +346,12 @@ i:hover{
     grid-row-start: 4;
     border-radius: 27px;
     border: 2px,solid transparent;
-    background: linear-gradient(120deg,#2A2A2A,#343434) padding-box,linear-gradient(120deg,#757575,black) border-box;
+    background: linear-gradient(130deg, #3a3a3a, #151515) padding-box,linear-gradient(120deg,#757575,black) border-box;
+    transition: background 3s ease-in-out;
 }
-
+.div6:hover{
+    background: linear-gradient(150deg, #3a3a3a, #151515) padding-box,linear-gradient(120deg,#757575,black) border-box;;
+}
 .up6{
     height: 70%;
 }
@@ -366,7 +394,7 @@ i:hover{
     padding-left: 40px;
 }
 .download6 a{
-    padding-left: 400px;
+    margin-left: 400px;
     font-size: 3rem;
 }
 .download6 a i {
@@ -388,9 +416,83 @@ i:hover{
     grid-row-start: 4;
     border-radius: 27px;
     border: 2px,solid transparent;
-    background: linear-gradient(120deg,#2A2A2A,#343434) padding-box,linear-gradient(120deg,#757575,black) border-box;
+    background: linear-gradient(130deg, #3a3a3a, #151515) padding-box,linear-gradient(120deg,#757575,black) border-box;
+    transition: background 3s ease-in-out;
 }
-
+.div7:hover{
+    background: linear-gradient(150deg, #3a3a3a, #151515) padding-box,linear-gradient(120deg,#757575,black) border-box;;
+}
+.up7{
+    height: 70%;   
+  
+}
+.box7{
+    height: 120px;
+    width: 230px;
+    background-color: rgba(217, 217, 217, 0.2);
+    margin-left: 40px;
+    margin-top: 30px;
+    display: grid;
+    border-radius: 10px;
+    border: 2px, solid #8b8b8b;
+   
+}
+.box71{
+    height: 120px;
+    width: 230px;
+    background-color: rgba(217, 217, 217, 0.2);
+    justify-content: center;
+    margin-left: 40px;
+    margin-top: 20px;
+    display: grid;
+    border-radius: 10px;
+    border: 2px, solid #8b8b8b;
+    transform: background-color 2sec ease;
+    cursor: pointer;
+}
+.box71:hover{
+    background-color: rgba(209, 209, 209, 0.285);
+    border: 2px, solid #acacac;
+}
+.box7:hover{
+    background-color: rgba(209, 209, 209, 0.285);
+    border: 2px, solid #acacac;
+}
+.box7 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);  
+}
+.box71 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: repeat(2, 1fr);  
+}
+.circle {
+    width: 80px; 
+    height: 80px;
+    border-radius: 50%; 
+    background-color: rgb(143, 142, 142);
+    margin-left: 15px; 
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: background-color 2sec ease;
+    cursor: pointer;
+}
+.circle:hover{
+    background-color: rgba(225, 225, 225, 0.667);
+}
+.circle a{
+    text-decoration: none;
+}
+.circle i{
+    font-size: 2.5rem;
+    color: rgb(255, 255, 255);
+    transform: color 3sec ease;
+    cursor: pointer;
+}
 .div8 {
     width: 600px;
     height: 284px;
@@ -399,17 +501,39 @@ i:hover{
     grid-row-start: 7;
     border-radius: 27px;
     border: 2px,solid transparent;
-    background: linear-gradient(120deg,#2A2A2A,#343434) padding-box,linear-gradient(120deg,#757575,black) border-box;
+    background: linear-gradient(130deg, #3a3a3a, #151515) padding-box,linear-gradient(120deg,#757575,black) border-box;
+    display: flex;           
+    gap: 20px;
+    transition: background 3s ease-in-out; 
 }
-.up7{
-    height: 70%;   
+.div8:hover{
+    background: linear-gradient(150deg, #3a3a3a, #151515) padding-box,linear-gradient(120deg,#757575,black) border-box;;
 }
-.box7{
-    height: 200px;
-    width: 229px;
-    background-color: rgba(217, 217, 217,0.5);
+.exp {
+    width: 160px;
+    height: 193px;
+    margin-top: 50px;
+    background-color: yellow;
+    background-color: rgba(217, 217, 217, 0.2);
+    border-radius: 10px;
+    border: 2px, solid #8b8b8b;
+}
+.div8 .exp:first-child {
     margin-left: 40px;
+}
+.exp h1{
+    font-family: Inter;
+    font-size: 4rem;
+    font-weight: 400;
+    color: white;
     margin-top: 40px;
+    text-align: center;
+}
+.exp h5{
+    font-family: Instrument Sans;
+    color: #ABABAB;
+    font-weight: 400;
+    text-align: center;
 }
 
 
@@ -422,6 +546,77 @@ i:hover{
     grid-row-start: 7;
     border-radius: 27px;
     border: 2px,solid transparent;
-    background: linear-gradient(120deg,#2A2A2A,#343434) padding-box,linear-gradient(120deg,#757575,black) border-box;
+    background: linear-gradient(130deg, #3a3a3a, #151515) padding-box,linear-gradient(120deg,#757575,black) border-box;
+    transition: background 3s ease-in-out;
+}
+
+.div9:hover{
+    background: linear-gradient(150deg, #3a3a3a, #151515) padding-box,linear-gradient(120deg,#757575,black) border-box;;
+}
+
+.flx-img{
+    margin-left: 20px;
+    margin-top: 0;
+}
+
+.flx-img img{
+    height: 90px;
+    width: 40px;
+    position: absolute;
+}
+.download9 h1{
+    color: #ffffff;
+    font-family: Inter;
+    font-weight: 500;
+    padding-top: 100px;
+    font-size: 2.4rem;
+}
+.download9 h1 span{
+    color: #ed7737;
+}
+.download9 {
+    display: flex;
+    align-items: center;
+}
+
+
+.download9 a{
+    margin-top: 130px;
+    margin-left: 280px;
+    font-size: 3rem;
+    text-decoration: none;
+}
+.download9 a i {
+    color: #B7B5B5;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.download9 a i:hover {
+    color: #ffffff;
+}
+
+footer{
+    height: 35vh;
+    width: 100vw;
+    background-color: #131313;
+}
+footer .logo{
+    text-align: center;
+}
+footer .menu{
+    justify-content: center;
+}
+footer p{
+    color: #9E9E9E;
+    font-family: Alata;
+    letter-spacing: 1px;
+    font-weight: lighter;
+    text-align: center;
+}
+footer p a{
+    text-decoration: none;
+    color: #3753ED;
+    font-weight: 800;
 }
                          
