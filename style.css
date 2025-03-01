@@ -68,6 +68,7 @@ nav {
 .parent {
     display: grid;
     gap: 15px;
+    grid-template-columns: repeat(8, 1fr);
     justify-content: center;
 }
     
@@ -685,7 +686,7 @@ footer p a{
                       
 
 
-@media only screen and (max-width: 1300px) {
+@media only screen and (max-width: 900px) {
     *{
         margin: 0;
         padding: 0;
@@ -717,7 +718,7 @@ footer p a{
         margin-left: 170px;
     }
     .parent{
-        display: table-row;
+        grid-template-columns: 1fr;
     }
     /* div1 */
     .div1{
