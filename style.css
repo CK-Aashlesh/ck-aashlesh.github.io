@@ -693,7 +693,7 @@ footer p a{
     }
     .container{
         height: 360vh;
-        width: 100%;
+        width: 100vw;
         background-color: #131313;
     }
     .menu li{
