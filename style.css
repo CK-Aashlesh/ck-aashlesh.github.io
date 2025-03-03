@@ -3,7 +3,7 @@
     padding: 0;
 }
 .container{
-    height: 170vh;
+    height: 250vh;
     width: 100vw;
     background-color: #131313;
 }
@@ -68,7 +68,7 @@ nav {
 .parent {
     display: grid;
     gap: 15px;
-    grid-template-columns: repeat(8, 1fr);
+    /* grid-template-columns: repeat(0, 0fr); */
     justify-content: center;
 }
     
@@ -644,9 +644,7 @@ i:hover{
 }
 
 footer{
-    height: 35vh;
-    width: 100vw;
-    background-color: #131313;
+    margin-top: 200px;
 }
 footer .logo{
     text-align: center;
@@ -686,7 +684,7 @@ footer p a{
                       
 
 
-@media only screen and (max-width: 1100px) {
+@media only screen and (max-width: 700px) {
     *{
         margin: 0;
         padding: 0;
@@ -696,6 +694,9 @@ footer p a{
         width: 100vw;
         background-color: #131313;
     }
+    /* .parent{
+        grid
+    } */
     .menu li{
         display: none;
     }
@@ -716,9 +717,6 @@ footer p a{
     .menu a{
         padding-top: 10px;
         margin-left: 170px;
-    }
-    .parent{
-        grid-template-columns: 1fr;
     }
     /* div1 */
     .div1{
@@ -1041,5 +1039,6 @@ footer p a{
     .menu-down a {
         font-size: 18px;
     } 
+    
   
-}    
+}
