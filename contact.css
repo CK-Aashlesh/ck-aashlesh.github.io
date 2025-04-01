@@ -1,0 +1,385 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+a{
+    text-decoration: none;
+}
+.main-page{
+    height: 110vh;
+    width: 100%;
+    background-color: black; 
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    padding: 10px 70px;
+    height: 20vh;
+}
+.menu i{
+    display: none;
+}
+.logo {
+    font-size: 1.5rem;
+    padding-top: 15px;
+    font-family: "Inter";
+    font-weight: bold;
+}
+.logo a{
+    text-decoration: none;
+    color: #ffff;
+    text-align: center;
+}
+.menu {
+    display: flex;
+
+}
+.menu li {
+    list-style: none;
+    padding-top: 10px;
+    margin: 60px;
+}
+.menu a {
+    text-decoration: none;
+    color: #B7B5B5;
+    font-family: "Instrument Sans";
+    font-size: 18px;
+    font-weight: 400;
+    transition: color 0.2s ease-in-out;
+} 
+.menu a:hover,
+.menu a.a4{
+    color: white;
+}
+.menu-down a:hover,
+.menu-down a.a4{
+    color: white;
+}
+.ContactME{
+    width: 145px;
+    height: 45px;
+    border: none;
+    background-color: #ffffff;
+    border-radius: 10px;
+    font-family: "Alata";
+    color: rgb(0, 0, 0);
+    letter-spacing: 1.5px;
+    cursor: pointer;
+    transition: 3sec ease-in-out;
+}
+
+/* contact */
+.main-contact{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.right{
+    width: 40%;
+    height: 100vh;
+    /* background-color: aqua; */
+    color: white;
+}
+.left{
+    width: 60%;
+    height: 100vh;
+    /* background-color: tomato; */
+}
+.right h4{
+    padding: 50px 140px;
+    font-family: Instrument Sans;
+    font-weight: 300;
+    color: white;
+}
+.Mail{
+    width: 400px;
+    height: 100px; 
+    margin-left: 140px;
+    display: flex;
+}
+.imail{
+    width: 70px;
+    height: 70px;
+    background-color: #343434a4 ; 
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    position: relative;
+}
+.Mail h6{
+    font-family: Instrument Sans;
+    font-weight: 300;
+    font-size: 15px;
+    padding-left: 20px;
+    color: #B7B5B5;
+    letter-spacing: 1.5px;
+}
+.Mail h5{
+    color: #ffffff;
+    font-size: 18px;
+    padding: 10px 20px;
+    font-family: Instrument Sans;
+    font-weight: 500;
+}
+.phone{
+    width: 400px;
+    height: 100px; 
+    margin: 10px 140px;
+    display: flex;
+}
+.phone h6{
+    font-family: Instrument Sans;
+    font-weight: 300;
+    font-size: 15px;
+    padding-left: 20px;
+    color: #B7B5B5;
+    letter-spacing: 1.5px;
+}
+.phone h5{
+    color: #ffffff;
+    font-size: 18px;
+    padding: 10px 20px;
+    font-family: Instrument Sans;
+    font-weight: 500;
+}
+.location{
+    width: 400px;
+    height: 100px; 
+    margin: 10px 140px;
+    display: flex;
+}
+.location h6{
+    font-family: Instrument Sans;
+    font-weight: 300;
+    font-size: 15px;
+    padding-left: 20px;
+    color: #B7B5B5;
+    letter-spacing: 1.5px;
+}
+.location h5{
+    color: #ffffff;
+    font-size: 18px;
+    padding: 10px 20px;
+    font-family: Instrument Sans;
+    font-weight: 500;
+}
+.Social h6{
+    font-family: Instrument Sans;
+    font-weight: 300;
+    font-size: 15px;
+    padding: 10px 140px;
+    color: #B7B5B5;
+    letter-spacing: 1.5px;
+}
+.in-box1{
+    width: 250px;
+    height: 100px;
+    margin: 0px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.in-box11{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: rgba(109, 109, 109, 0.411);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.in-box12{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: rgba(109, 109, 109, 0.411);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.in-box11 i{
+    font-size: 40px;
+    color: rgba(198, 198, 198, 0.922);
+    transition: 0.1s ease-in-out;
+}
+.in-box11 i:hover{
+    color: white;
+}
+.in-box12 i{
+    font-size: 40px;
+    color: rgba(198, 198, 198, 0.922);
+    transition: 0.1s ease-in-out;
+}
+.in-box12 i:hover{
+    color: white;
+} 
+
+/* left side */
+.div-blank{
+    height: 61px;
+    width: 650px;
+    margin-top: 50px;
+    border-radius: 27px;
+    border: 2px,solid transparent;
+    background: linear-gradient(110deg , #434343dd , #070707e1) padding-box,linear-gradient(150deg,#d5d5d5,black) border-box;
+}
+.div-blank h2{
+    color: #cfcece;
+    font-family: Instrument Sans;
+    font-size: 20px;
+    font-weight: 200;
+    margin: 20px 25px;
+}
+.contnt{
+    margin-top: 20px;
+}
+form {
+    display: inline-block;
+    width: 100%;
+    max-width: 700px;
+    border-radius: 10px;
+}
+input{
+    height: 61px;
+    width: 650px;
+    margin-top: 15px;
+    padding: 15px;
+    border-radius: 15px;
+    color: white;
+    font-size: 15px;
+    border: 2px,solid transparent;
+    background: linear-gradient(110deg , #434343dd , #070707e1) padding-box,linear-gradient(150deg,#d5d5d5,black) border-box;
+}
+textarea{
+    height: 150px;
+    width: 650px;
+    margin-top: 15px;
+    padding: 15px 10px;
+    border-radius: 15px;
+    border: 2px,solid transparent;
+    color: white;
+    font-size: 15px;
+    background: linear-gradient(110deg , #434343dd , #070707e1) padding-box,linear-gradient(150deg,#d5d5d5,black) border-box;
+
+}
+input:focus, textarea:focus {
+    outline: none;
+    box-shadow: none;
+}
+textarea::placeholder{
+    font-family: Instrument Sans;
+}
+form button{
+    padding: 15px 10px;
+    border-radius: 15px;
+    border: 2px,solid transparent;
+    background: linear-gradient(110deg , #434343dd , #070707e1) padding-box,linear-gradient(150deg,#d5d5d5,black) border-box;
+    width: 30%;
+    padding: 10px;
+    font-size: 1em;
+    font-family: Instrument Sans;
+    margin-left: 200px;
+    margin-top: 25px;
+    border-radius: 50px;
+    color: #cfcece;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+form button:hover {
+    color: #ffffff;
+    background: linear-gradient(-90deg , #434343dd , #070707e1) padding-box,linear-gradient(90deg,#d5d5d5,black) border-box;
+}
+
+
+footer{
+    height: 35vh;
+    background-color: black;
+}
+footer .logo{
+    text-align: center;
+}
+footer p{
+    color: #9E9E9E;
+    font-family: Alata;
+    letter-spacing: 1px;
+    font-weight: lighter;
+    text-align: center;
+}
+footer p a{
+    text-decoration: none;
+    color: #3753ED;
+    font-weight: 800;
+}
+.menu-down {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+
+}
+.menu-down li {
+    padding-top: 10px;
+    margin: 45px;
+}
+.menu-down a {
+    text-decoration: none;
+    color: #B7B5B5;
+    font-family: "Instrument Sans";
+    font-size: 18px;
+    transition: color 0.3s ease;
+} 
+.menu-down a:hover{
+    color: white;
+}
+
+
+
+
+/* 
+
+input , textarea , button{
+    background: linear-gradient(110deg , #434343dd , #070707e1) padding-box,linear-gradient(150deg,#d5d5d5,black) border-box;
+    border-radius: 27px;
+    width: 650px;
+}
+input, textarea {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 1em;
+    font-family: "Open Sans";
+    background: linear-gradient(110deg , #434343dd , #070707e1) padding-box,linear-gradient(150deg,#d5d5d5,black) border-box;
+    border-radius: 27px;
+    width: 650px;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    border-color: #666;
+}
+button {
+    width: 30%;
+    padding: 10px;
+    font-size: 1em;
+    font-family: "sen";
+    color: #594C8D;
+    background-color: transparent;
+    border: 2px solid #594C8D;
+    margin-left: 200px;
+    margin-top: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+textarea::placeholder{
+    font-family: "Open Sans";
+}
+
+button:hover {
+    background-color: #594C8D;
+    color: #ffffff;
+} */
